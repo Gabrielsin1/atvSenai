@@ -1,0 +1,141 @@
+/*cabeçalho*/
+
+
+/*Conteudo principal*/
+
+
+/*banner*/
+header img{
+    height: 100px;
+}
+
+#section-banners img{
+    height: 500px;
+}
+
+
+/*Produtos vendidos*/
+#section-vendidos{
+    text-align: center;
+}
+
+#section-vendidos h2{
+    font-weight: bold;
+    padding: 20px;
+}
+
+#section-vendidos img{
+    height: 300px;
+    border-radius: 10px;
+
+}
+
+#section-vendidos .card{
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+
+}
+
+#section-vendidos .preco{
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/*Rodapé*/
+footer{
+    text-align: center;
+
+}
+
+footer p {
+    font-weight: bold;
+    padding: 10px;
+}
+
+/*Botão Voltar topo*/
+#voltar-topo{
+    position: fixed;
+    bottom: 5px;
+    right: 50px;
+}
+
+
+/* página de login  */
+#section-login{
+    margin-top: 100px;
+}
+
+#section-login h1{
+    text-align: center;
+}
+
+#section-login input{
+    width: 100%;
+}
+
+
+
+/* Formulário de cadastro*/
+
+#section-cadastro{
+    padding: 5px;
+    text-align: center;
+    background-color: #fff;
+}
+
+#form-cadastrar{
+    padding: 50px;
+    display: none;
+}
+
+
+/* CONSOLE */
+.jogo-destaque{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    padding-top: 20px;
+    color: #fff;
+    background-color: black;
+}
+.jogo-destaque h2{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.jogo-destaque p{
+    max-width: 500px;
+    font-size: 20px;
+}
+
+.jogo-destaque img{
+    width: 300px;
+    border-radius: 10px;
+    
+
+}
+
+.jogo-destaque span{
+    max-width: 500px;
+    font-size: 15px;
+    margin: 15px 0;
+    font-style: italic;
+}
+
+
+#btnPlay5{
+    margin: 10px 0;
+}
+
+#section-vendidos h2{
+    font-weight: 300;
+    margin-top: 50px;
+}
+
+#section-vendidos .preco {
+    color: black;
+    
+}
